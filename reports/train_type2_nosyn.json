@@ -1,0 +1,13 @@
+{
+  "train_pairs": 21,
+  "val_pairs": 4,
+  "eval_loss_by_epoch": [
+    1.436,
+    1.38,
+    1.373
+  ],
+  "best_epoch": 3.0,
+  "minutes": 2.8,
+  "peak_vram_gb": 6.51,
+  "qlora": true
+}

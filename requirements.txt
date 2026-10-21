@@ -1,0 +1,11 @@
+# Install a CUDA build of torch first:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+transformers==5.20.1
+peft==0.21.2
+trl==1.16.0
+accelerate==1.15.0
+datasets==5.1.0
+bitsandbytes==0.50.2
+sacrebleu==2.6.0
+# Serving (Linux / WSL2 only): pip install vllm==0.32.0
